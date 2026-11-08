@@ -2,3 +2,4 @@ build/
 release/
 *.pem
 zimorecorder-lang.cfg
+installer/ffmpeg.exe
