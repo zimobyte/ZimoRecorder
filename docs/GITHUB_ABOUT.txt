@@ -1,0 +1,15 @@
+Repository settings to fill in on GitHub (gear icon next to "About"):
+
+Description:
+  Fast, lightweight screenshot & screen recorder for Windows. Window/region capture, MP4 & GIF recording, built-in editor, OCR, 15 languages.
+
+Website:
+  (your site, optional)
+
+Topics (type them in the Topics box):
+  screenshot, screen-recorder, screen-capture, gif-recorder, ocr, windows, win32, cpp, cmake, productivity, desktop-app, sharex-alternative
+
+Social preview image (Settings > General > Social preview > Upload):
+  docs/images/social-preview.png
+
+Also tick: Releases, and untick Packages / Deployments if you do not use them.

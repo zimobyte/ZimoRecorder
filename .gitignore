@@ -1,0 +1,4 @@
+build/
+release/
+*.pem
+zimorecorder-lang.cfg
