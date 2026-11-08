@@ -1,15 +1,13 @@
 Repository settings to fill in on GitHub (gear icon next to "About"):
 
 Description:
-  Fast, lightweight screenshot & screen recorder for Windows. Window/region capture, MP4 & GIF recording, built-in editor, OCR, 15 languages.
+  Screenshot tool & screen recorder for Windows 10/11. Capture a window or region, record MP4 video or GIF, edit instantly, extract text (OCR). 15 languages.
 
 Website:
-  (your site, optional)
+  https://zimobyte.github.io/ZimoRecorder/
 
-Topics (type them in the Topics box):
-  screenshot, screen-recorder, screen-capture, gif-recorder, ocr, windows, win32, cpp, cmake, productivity, desktop-app, sharex-alternative
+Topics (type ONE word, press Enter, repeat):
+  screenshot, screenshot-tool, screen-recorder, screen-capture, screen-recording, gif-recorder, video-recorder, ocr, windows, windows-11, win32, cpp, desktop-app, productivity
 
 Social preview image (Settings > General > Social preview > Upload):
   docs/images/social-preview.png
-
-Also tick: Releases, and untick Packages / Deployments if you do not use them.

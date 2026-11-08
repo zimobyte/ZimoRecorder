@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZIMO RECORDER - Screenshot Tool &amp; Screen Recorder for Windows</title>
+<meta name="description" content="ZIMO RECORDER is a lightweight screenshot tool and screen recorder for Windows 10 and 11. Capture a window or region, record MP4 or GIF, edit instantly and extract text with OCR. 15 languages.">
+<link rel="canonical" href="https://zimobyte.github.io/ZimoRecorder/">
+<link rel="icon" href="favicon.ico">
+<meta name="theme-color" content="#12181f">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ZIMO RECORDER - Screenshot Tool &amp; Screen Recorder for Windows">
+<meta property="og:description" content="Capture any window or region, record MP4 or GIF, edit in one click and copy text from the screen. Lightweight, private, 15 languages.">
+<meta property="og:url" content="https://zimobyte.github.io/ZimoRecorder/">
+<meta property="og:image" content="https://zimobyte.github.io/ZimoRecorder/images/social-preview.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "SoftwareApplication", "name": "ZIMO RECORDER", "applicationCategory": "MultimediaApplication", "operatingSystem": "Windows 10, Windows 11", "description": "Screenshot tool and screen recorder for Windows. Capture a window or region, record MP4 video or GIF, edit instantly and extract text with OCR. 15 languages.", "url": "https://zimobyte.github.io/ZimoRecorder/", "downloadUrl": "https://github.com/zimobyte/ZimoRecorder/releases/latest", "image": "https://zimobyte.github.io/ZimoRecorder/images/social-preview.png", "author": {"@type": "Person", "name": "Zimo"}, "inLanguage": ["en", "fa", "de", "ru", "fr", "es", "tr", "ar", "zh", "it", "pt", "ja", "ko", "hi", "nl"]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I take a screenshot of a single window on Windows?", "acceptedAnswer": {"@type": "Answer", "text": "Press Ctrl + PrtSc, hover over the window until it is highlighted, and click. The built-in editor opens so you can add arrows, text or blur, then save or copy."}}, {"@type": "Question", "name": "How do I record my screen on Windows 11?", "acceptedAnswer": {"@type": "Answer", "text": "Press Shift + PrtSc, choose a window or area, and press the shortcut again to stop. The MP4 is saved automatically."}}, {"@type": "Question", "name": "Can I make a GIF of my screen?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Press Alt + PrtSc, choose the area, and press it again to finish. The GIF is saved to your Videos folder."}}, {"@type": "Question", "name": "Can I copy text from an image or the screen?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Press Ctrl + F9, select the text on screen, and it is copied to your clipboard using OCR."}}, {"@type": "Question", "name": "Does ZIMO RECORDER upload my files?", "acceptedAnswer": {"@type": "Answer", "text": "No. There is no account and no cloud. Everything is saved on your own computer."}}, {"@type": "Question", "name": "Which versions of Windows are supported?", "acceptedAnswer": {"@type": "Answer", "text": "Windows 10 and Windows 11 (64-bit)."}}, {"@type": "Question", "name": "Which languages does it support?", "acceptedAnswer": {"@type": "Answer", "text": "15 interface languages: English, Persian, German, Russian, French, Spanish, Turkish, Arabic, Chinese, Italian, Portuguese, Japanese, Korean, Hindi and Dutch."}}]}]}</script>
+<style>
+:root{--bg:#12181f;--panel:#1f2936;--panel2:#18212b;--text:#fff;--sub:#96a0ac;--accent:#e5142c}
+@media (prefers-color-scheme: light){:root{--bg:#f5f7fa;--panel:#ffffff;--panel2:#eef1f5;--text:#12181f;--sub:#5b6673}}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+header{border-top:4px solid var(--accent);background:var(--panel2)}
+nav{display:flex;align-items:center;justify-content:space-between;padding:16px 0}
+.brand{font-weight:800;letter-spacing:.5px;text-decoration:none;font-size:1.1rem}
+nav a.link{margin-left:22px;text-decoration:none;color:var(--sub);font-weight:600}
+nav a.link:hover{color:var(--accent)}
+.hero{text-align:center;padding:56px 0 64px}
+h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.15;margin:0 0 16px}
+.hero p.lead{color:var(--sub);font-size:1.15rem;max-width:680px;margin:0 auto 30px}
+.btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;font-weight:700;padding:15px 34px;border-radius:12px;font-size:1.05rem}
+.btn:hover{filter:brightness(1.1)}
+.btn.ghost{background:transparent;border:2px solid var(--sub);color:var(--text);margin-left:12px}
+.meta{margin-top:16px;color:var(--sub);font-size:.9rem}
+.shot{margin:44px auto 0;max-width:554px;border-radius:14px;overflow:hidden;box-shadow:0 18px 50px rgba(0,0,0,.35)}
+.shot img{display:block;width:100%;height:auto}
+section{padding:56px 0}
+h2{font-size:1.8rem;margin:0 0 28px;text-align:center}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+.card{background:var(--panel);border-radius:14px;padding:22px;border-left:4px solid var(--accent)}
+.card h3{margin:0 0 6px;font-size:1.1rem}
+.card p{margin:0;color:var(--sub)}
+.steps{counter-reset:s;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+.step{background:var(--panel);border-radius:14px;padding:22px 22px 22px 70px;position:relative}
+.step:before{counter-increment:s;content:counter(s);position:absolute;left:20px;top:20px;width:34px;height:34px;border-radius:50%;background:var(--accent);color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center}
+.step h3{margin:0 0 4px} .step p{margin:0;color:var(--sub)}
+table{width:100%;border-collapse:collapse;background:var(--panel);border-radius:14px;overflow:hidden}
+th,td{padding:14px 18px;text-align:left;border-bottom:1px solid var(--panel2)}
+th{color:var(--sub);font-weight:600;font-size:.9rem}
+kbd{background:var(--panel2);border:1px solid var(--sub);border-radius:6px;padding:2px 8px;font-family:inherit;font-weight:600}
+details{background:var(--panel);border-radius:12px;margin-bottom:12px;padding:16px 20px}
+summary{cursor:pointer;font-weight:700}
+details p{margin:10px 0 0;color:var(--sub)}
+.cta{text-align:center}
+footer{padding:34px 0;text-align:center;color:var(--sub);font-size:.9rem;border-top:1px solid var(--panel2)}
+</style>
+</head>
+<body>
+<header>
+ <div class="wrap">
+  <nav>
+   <a class="brand" href="#">ZIMO RECORDER</a>
+   <div><a class="link" href="#features">Features</a><a class="link" href="#how">How to use</a><a class="link" href="#faq">FAQ</a><a class="link" href="https://github.com/zimobyte/ZimoRecorder">GitHub</a></div>
+  </nav>
+ </div>
+</header>
+
+<main>
+<div class="hero wrap">
+ <h1>Screenshot tool &amp; screen recorder for Windows</h1>
+ <p class="lead">Capture any window or region, record MP4 or GIF, edit in one click and copy text from the screen. Lightweight, private and available in 15 languages.</p>
+ <a class="btn" href="https://github.com/zimobyte/ZimoRecorder/releases/latest">Download for Windows</a><a class="btn ghost" href="https://github.com/zimobyte/ZimoRecorder">View on GitHub</a>
+ <div class="meta">Windows 10 &amp; 11 &middot; No account &middot; Nothing is uploaded</div>
+ <div class="shot"><img src="images/dashboard.png" alt="ZIMO RECORDER main window with capture, record, GIF and OCR buttons" width="554" height="547"></div>
+</div>
+
+<section id="features"><div class="wrap">
+ <h2>Everything you need to capture your screen</h2>
+ <div class="grid">
+  <div class="card"><h3>Window &amp; region capture</h3><p>Hover a window to highlight it and click, or drag any area. Live size display on every selection.</p></div>
+  <div class="card"><h3>MP4 &amp; GIF recording</h3><p>Record a window or region as video or an animated GIF, with pause and resume.</p></div>
+  <div class="card"><h3>Instant editor</h3><p>Arrows, lines, text and blur, then save or copy in one click.</p></div>
+  <div class="card"><h3>Text recognition (OCR)</h3><p>Select text on screen and it lands on your clipboard.</p></div>
+  <div class="card"><h3>Always ready</h3><p>Starts with Windows and waits in the tray. Your shortcuts work in any app.</p></div>
+  <div class="card"><h3>15 languages</h3><p>English, Persian, German, Russian, French, Spanish, Turkish, Arabic, Chinese, Italian, Portuguese, Japanese, Korean, Hindi, Dutch.</p></div>
+ </div>
+</div></section>
+
+<section id="how"><div class="wrap">
+ <h2>How to use it</h2>
+ <div class="steps">
+  <div class="step"><h3>Press a shortcut</h3><p><kbd>Ctrl</kbd> + <kbd>PrtSc</kbd> to take a screenshot, <kbd>Shift</kbd> + <kbd>PrtSc</kbd> to record.</p></div>
+  <div class="step"><h3>Pick what to capture</h3><p>Click a highlighted window or drag an area. Right-click while dragging to start over.</p></div>
+  <div class="step"><h3>Edit, save or copy</h3><p>Annotate in the editor. A notification opens the folder with your file selected.</p></div>
+ </div>
+</div></section>
+
+<section id="shortcuts"><div class="wrap">
+ <h2>Keyboard shortcuts</h2>
+ <table>
+  <tr><th>Action</th><th>Shortcut</th><th>Backup</th></tr>
+  <tr><td>Screenshot (window or region)</td><td><kbd>Ctrl</kbd> + <kbd>PrtSc</kbd></td><td><kbd>Ctrl</kbd> + <kbd>F6</kbd></td></tr>
+  <tr><td>Record video (MP4)</td><td><kbd>Shift</kbd> + <kbd>PrtSc</kbd></td><td><kbd>Ctrl</kbd> + <kbd>F7</kbd></td></tr>
+  <tr><td>Record GIF</td><td><kbd>Alt</kbd> + <kbd>PrtSc</kbd></td><td><kbd>Ctrl</kbd> + <kbd>F8</kbd></td></tr>
+  <tr><td>Extract text (OCR)</td><td><kbd>Ctrl</kbd> + <kbd>F9</kbd></td><td></td></tr>
+ </table>
+</div></section>
+
+<section id="faq"><div class="wrap">
+ <h2>Frequently asked questions</h2>
+ <details><summary>How do I take a screenshot of a single window on Windows?</summary><p>Press Ctrl + PrtSc, hover over the window until it is highlighted, and click. The built-in editor opens so you can add arrows, text or blur, then save or copy.</p></details>
+<details><summary>How do I record my screen on Windows 11?</summary><p>Press Shift + PrtSc, choose a window or area, and press the shortcut again to stop. The MP4 is saved automatically.</p></details>
+<details><summary>Can I make a GIF of my screen?</summary><p>Yes. Press Alt + PrtSc, choose the area, and press it again to finish. The GIF is saved to your Videos folder.</p></details>
+<details><summary>Can I copy text from an image or the screen?</summary><p>Yes. Press Ctrl + F9, select the text on screen, and it is copied to your clipboard using OCR.</p></details>
+<details><summary>Does ZIMO RECORDER upload my files?</summary><p>No. There is no account and no cloud. Everything is saved on your own computer.</p></details>
+<details><summary>Which versions of Windows are supported?</summary><p>Windows 10 and Windows 11 (64-bit).</p></details>
+<details><summary>Which languages does it support?</summary><p>15 interface languages: English, Persian, German, Russian, French, Spanish, Turkish, Arabic, Chinese, Italian, Portuguese, Japanese, Korean, Hindi and Dutch.</p></details>
+</div></section>
+
+<section class="cta"><div class="wrap">
+ <h2>Ready to capture?</h2>
+ <a class="btn" href="https://github.com/zimobyte/ZimoRecorder/releases/latest">Download ZIMO RECORDER</a>
+</div></section>
+</main>
+
+<footer><div class="wrap">Made with care by Zimo &middot; &copy; 2026 Zimo. All rights reserved.</div></footer>
+</body>
+</html>
