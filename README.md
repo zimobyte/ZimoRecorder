@@ -164,6 +164,6 @@ Bug reports and ideas are welcome. Please use the [issue templates](https://gith
 
 If you like ZIMO RECORDER, please give it a &#11088; &mdash; it helps others find it.
 
-Made with care by **Zimo** &nbsp;&middot;&nbsp; &copy;  © 2026 Zimo. Released under the MIT License.
+Made with care by **Zimo** &nbsp;&middot;&nbsp; © 2026 Zimo. Released under the MIT License.
 
 </div>
